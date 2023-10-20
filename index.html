@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Project 3 / Tailwind CSS</title>
+  </head>
+  <body class="bg-black text-white overflow-x-hidden">
+    <nav class="border-b-[1px] border-b-light-gray">
+      <div
+        class="container flex items-center justify-between pt-[24px] pb-[32px]"
+      >
+        <a href="#" class="text-lg">black fashion</a>
+        <a href="#" class="text-lg">cart</a>
+      </div>
+    </nav>
+
+    <main
+      class="relative flex flex-col justify-center items-center px-[20px] tablet:h-[82vh] mb-[100px] tablet:mb-0"
+    >
+      <img
+        src="./assets/hero.png"
+        alt="hero image"
+        class="mt-[50px] tablet:mt-0 mb-[50px] w-full max-w-[270px] tablet:max-w-[445px] z-10"
+      />
+      <h1
+        class="text-3xl tablet:absolute tablet:top-[50%] tablet:translate-y-[-50%] tablet:right-[-3%]"
+      >
+        fashion
+      </h1>
+      <h1
+        class="text-3xl leading-[30px] tablet:absolute tablet:top-[50%] tablet:translate-y-[-50%] tablet:left-[-3%]"
+      >
+        design
+      </h1>
+    </main>
+
+    <nav class="border-t-[1px] border-t-light-gray tablet:mt-0">
+      <div
+        class="container flex items-center justify-between pt-[24px] pb-[32px]"
+      >
+        <a href="#" class="text-lg">about</a>
+        <a href="#" class="text-lg">contact</a>
+      </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

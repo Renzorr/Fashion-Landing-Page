@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Dirtyline";
+    src: url("/assets/Dirtyline36daysoftype2022.ttf") format("truetype");
+  }
+}
+
+body{
+    font-family: "Dirtyline";
+}
